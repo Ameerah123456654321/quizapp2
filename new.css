@@ -177,6 +177,7 @@ margin: 15px 0;
         font-size: 60px;
     }
     .input{
+          padding: 10px;
         font-size: 35px;
         width: 100%;
     }
@@ -192,9 +193,9 @@ margin: 15px 0;
     width: 90%;
       padding: 20px;
       position: absolute;
-      top:20%;
+      top:30%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%,-30%);
     text-align: center;
     background-color: var(--input-color);
     border-radius: 15px;
