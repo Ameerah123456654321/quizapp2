@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUIZ APP</title>
+<link rel="stylesheet" href="new.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body >
+    <div class="landing" id="landing">
+       
+        <section class="content  ">
+            <div  class="all_div  ">
+                <div class=" div_div  ">
+              
+                    <div class="i_div settings " id="settings">
+                       <div class="category_div ">
+                         <label class="category_lbl"  for="category">Category: </label>
+                         <select id="category" class= "input category_input">
+                             <option value="9">General Knowledge</option>
+                             <option value="27">Animals</option>
+                             <option value="21">Sports</option>
+                             <option value="23">History</option>
+                         </select>
+                       </div>
+                        <div class="numbers_q_div ">
+                         <label class="numbers_q_lbl">Number Of Questions: </label>
+                         <input class="input numbers_q_input " id="numbers_q_input" type="text">
+                         <small>Max Number 10</small>
+                        </div>
+                      <div class="difficulty_div ">
+                         <label class="difficulty_lbl" for="difficulty" >Difficulty: </label>
+                         <div class="difficulty_div_check" id="difficulty">
+                             <label for="easy"><input class="" type="radio" id="easy"  name="radio" >Easy</label>
+                             <label for="medium"><input class="" type="radio" id="medium"  name="radio">Medium</label>
+                             <label for="hard"><input class="" type="radio" id="hard" name="radio" >Hard</label>
+                         </div>
+                       </div>
+                        <div class=""><button class="btn start_btn" id="start_btn">START</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="img"><img src="./Project_70-10.jpg"></div>
+    </div>
+    <div class="i_div div2 oprations" id="oprations">
+        <div class="currentANDtotal" id="currentANDtotal"><span id="current_span">3</span><span>/</span><span id="total_span">10</span></div>
+    
+    <div class="text_question_div "><h3 class="titel_h" id="text_question">Questions</h3></div>
+    <div class="titel_q_div "><h6 class="titel_q" id="titel_q">HOW TO COOLECT NUMBER</h6></div>
+    <div class="text_answer "><h4 class="titel_h" >Answers</h4></div>
+    <div class="answers_div " id="answers_div">
+
+    </div>
+    <div class="btn_div "><button class=" btn" id="next_btn">NEXT</button></div>
+    <div class="tim">
+        <div id="spans_div">
+            <span class="active1 spans  "></span>
+            <span class="spans "></span>
+            <span class="spans "></span>
+            <span class="spans "></span>
+        </div>
+        <span id="timer_span"></span>
+      
+    </div>
+    </div>
+    <div class="i_div div2 result " id="result">
+        <div class="answerd_span_div "><span id="answerd_span">YOUR ARE ANSWERD</span></div>
+        <div class="result_span_div"><span id="result_span">your result is:</span></div>
+        <div class=""><button class="btn" id="again_btn">Again</button></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
